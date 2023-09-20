@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+    background-color: #E0D5BE;
+    font-family: 'Cafe24 Supermagic OTF';
+    margin : 0px;
+}
+
+main, footer{
+    margin: 100px 50px;
+}
+
+/* nav */
+
+nav{
+    height: 50px;
+    border-bottom: 2px solid black;
+
+    position: sticky;
+    
+    top: 0;
+    margin: 0;
+}
+
+nav > ul{
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    background-color: #F2F2E2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav > ul a{
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+
+    display: block;
+
+    line-height: 40px;
+    background-color: #F2F2E2;
+}
+
+#profile-btn:hover:hover, #skill-btn:hover, 
+#work-btn:hover, #contact-btn:hover{
+    font-size: 25px;
+}
+
+
+
+/* profile */
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+header > div:first-child{
+    font-size: 60px;
+    margin: 5px;
+
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+
+header > div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-wrapper1{
+    width: 430px;
+    height: 500px;
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 100px;
+}
+
+#photo-profile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+    text-align: end;
+
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+#info > div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#info a{
+    text-decoration-line: none;
+    color: black;
+}
+
+#info >div:nth-child(2){
+    margin-bottom: 35px;
+}
+
+#github, #velog{
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+}
+
+
+
+/* introduce*/
+
+#introduce{
+    font-size: 25px;
+    margin: 200px 350px;
+
+    line-height: 45px;
+}
+
+
+
+
+/* skills */
+
+#skills{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-bottom: 150px;
+}
+
+#skills > img {
+    width: 100px;
+    height: 100px;
+}
+
+#skills > div:first-child{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+#skills > div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skill-name > p{
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 39px;
+}
+
+#right > div{
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+
+    display: flex;
+}
+
+#chart{
+    height: 40px; 
+    width: 1100px;
+    background-color: #477B5C;
+
+    border-radius: 25px;
+
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+#percent{
+    font-size: 25px;
+    line-height: 40px;
+
+    margin-left: 50px;
+}
+
+
+
+/* work */
+
+#Work{
+    margin-bottom: 200px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#Work > div:first-child{
+    font-size: 50px;
+    font-weight: bold;
+
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+
+#Work img{
+    width: 100px;
+    height: 100px;
+}
+
+#Work > div:nth-child(2),
+#Work > div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    width: 400px;
+    height: 270px;
+    background-color: #D9D9D9;
+    margin: 10px 10px;
+}
+
+#Work > div:nth-child(2) img{
+    width: 400px;
+    height: 270px;
+    margin: 10px 10px;
+}
+
+
+/* footer */
+
+footer{
+    margin: 200px 500px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer img{
+    width: 100px; 
+    height: 100px;
+}
+
+footer >div:first-child{
+    margin-bottom: 50px;
+
+    text-align: center;
+    font-size: 50px;
+}
+
+form, fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+#phone, #email{
+    height: 45px;
+    background-color: #D9D9D9;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+#content{
+    height: 312px;
+    background-color: #D9D9D9;
+    margin: 10px 0px;    
+    font-size: 18px;
+}
+
+fieldset, input{
+    border: none;
+    padding: 0;
+}
+
+#send{
+    background-color: #989898;
+    color: white;
+
+    height: 32px;
+    font-size: 25px;
+    border: none;
+
+    margin: 10px 0px;
+
+    cursor: pointer;
+}
